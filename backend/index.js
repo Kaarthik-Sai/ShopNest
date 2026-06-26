@@ -12,13 +12,16 @@ import analyticsRoutes from "./routes/analyticsRoutes.js";
 dotenv.config();
 connectDB();
 
+// dotenv.config();
+// connectDB();
+
 const app = express();
 const PORT = process.env.PORT || 5000;
 app.use(
   cors({
     origin: "http://localhost:3000",
     methods: ["GET", "POST", "PUT", "DELETE"],
-    credentials: true
+    credentials: true,
   }),
 );
 app.use(express.json());
