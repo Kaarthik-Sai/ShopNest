@@ -70,11 +70,11 @@ const About = () => {
           marginTop: "20px",
         }}
       >
-        <a href="" target="_blank" rel="noreferrer" style={socialBtnStyle}>
+        <a href="/" target="_blank" rel="noreferrer" style={socialBtnStyle}>
           🌐 Website
         </a>
         <a
-          href=""
+          href="/"
           target="_blank"
           rel="noreferrer"
           style={{
@@ -87,7 +87,7 @@ const About = () => {
           📺 YouTube
         </a>
         <a
-          href=""
+          href="/"
           target="_blank"
           rel="noreferrer"
           style={{
@@ -100,7 +100,7 @@ const About = () => {
           📸 Instagram
         </a>
         <a
-          href=""
+          href="/"
           target="_blank"
           rel="noreferrer"
           style={{
@@ -113,7 +113,7 @@ const About = () => {
           💼 LinkedIn
         </a>
         <a
-          href=""
+          href="/"
           target="_blank"
           rel="noreferrer"
           style={socialBtnStyle}
@@ -121,7 +121,7 @@ const About = () => {
           ✖️ X (Twitter)
         </a>
         <a
-          href=""
+          href="/"
           target="_blank"
           rel="noreferrer"
           style={{
@@ -134,7 +134,7 @@ const About = () => {
           💬 WhatsApp
         </a>
         <a
-          href=""
+          href="/"
           target="_blank"
           rel="noreferrer"
           style={socialBtnStyle}
